@@ -6,7 +6,7 @@ abstract class SiF
 {
     abstract function str(): Args ;
 
-    public function Out()
+    public function out()
     {
         $find = $this->str();
         $find->getPosition();
