@@ -6,21 +6,21 @@ abstract class SiF
 {
     abstract function str(): Args ;
 
-    public function out()
+    public function Out()
     {
         $find = $this->str();
-        $find->get_position();
+        $find->getPosition();
     }
 }
 
 //Arguments
 interface Args
 {
-    public function get_position() ;
+    public function getPosition() ;
 }
 
 //----Clents Classes----
-class find extends SiF implements Args
+class Find extends SiF implements Args
 {
     private $path;
     private $str;
@@ -37,7 +37,7 @@ class find extends SiF implements Args
         return new find($this->path, $this->str);
     }
 
-    public function get_position()
+    public function getPosition()
     {
         // TODO: Implement get_position() method.
         if ($file = fopen($this->path,"r")) {
