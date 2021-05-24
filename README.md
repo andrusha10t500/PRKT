@@ -11,7 +11,7 @@
 </ul>
 <h2>использование класса find</h2>
 <ul>
-    <li>$result = new find('file.txt', 'wds')</li>
+    <li>$result = new Find('file.txt', 'wds')</li>
     <li>$result->out();</li>
 </ul>
 <h2>получить результат:</h2>
