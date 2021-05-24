@@ -77,6 +77,7 @@ class find_string implements Args {
 //----Client Code----
 $result = new find("/var/www/html/file.txt", "wds");
 $result->out();
-
+//result:
+//номер строки: 7, позиция: 4
 ?>
 
