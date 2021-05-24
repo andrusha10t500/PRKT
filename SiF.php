@@ -43,9 +43,9 @@ class Find extends SiF implements Args
         if ($file = fopen($this->path,"r")) {
             $string_number = 0;
             $position = 0;
-            while(($line = fgets($file,4096)) !== false && !$position) {
+            while (($line = fgets($file,4096)) !== false && !$position) {
                 $string_number++;
-                if(strpos($line,$this->str) !== false) {
+                if (strpos($line,$this->str) !== false) {
                     $position = strpos($line,$this->str);
                 }
             }
