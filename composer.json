@@ -1,0 +1,6 @@
+{
+  "repositories": [
+    {"type": "composer", "url": "https://repo.packagist.com/georgeorganization/PRKT"},
+    {"packagist.org": false}
+  ]
+}
