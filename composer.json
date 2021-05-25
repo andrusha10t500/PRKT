@@ -6,9 +6,6 @@
             "url": "https://repo.packagist.com/georgeorganization/PRKT"
         }
     },
-    "require" : {
-        "php": ">=7.0"
-    },
     "minimum-stability": "stable"
 
 }
