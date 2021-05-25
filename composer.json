@@ -1,11 +1,17 @@
 {
-    "name" : "georgeorganization/prkt",
     "repositories": {
         "0": {
             "type": "composer",
-            "url": "https://repo.packagist.com/georgeorganization/PRKT"
+            "url": "https://repo.packagist.com/georgeorganization/"
+        },
+        "packagist.org": false,
+        "private-packagist": {
+            "type": "composer",
+            "url": "https://repo.packagist.com/georgeorganization/"
         }
     },
-    "minimum-stability": "stable"
-
+    "minimum-stability" : "dev",
+    "require-dev": {
+        "georgeorganization/prkt": "dev-master"
+    }
 }
