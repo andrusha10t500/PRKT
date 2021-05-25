@@ -75,8 +75,8 @@ class find_string implements Args {
 }
 
 //----Client Code----
-$result = new find("./file.txt", "wds");
-$result->out();
+//$result = new find("file.txt", "wds");
+//$result->out();
 //result:
 //номер строки: 7, позиция: 4
 ?>
